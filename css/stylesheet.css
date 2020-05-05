@@ -300,7 +300,8 @@ footer .copyright{
     }
 
     header .menu a{
-        margin: 10px 20px;
+        margin: 10px 10px;
+        font-size: 22px;
     }
 
     header .textos .nombre{
@@ -313,6 +314,7 @@ footer .copyright{
 
     .main .acerca-de .foto{
         width: 100%;
+        height: 300px;
         position: relative;
     }
 
@@ -343,7 +345,10 @@ footer .copyright{
 
 }
 
-@media sceen and (max-width: 400px){
+
+
+@media sceen and (max-width: 435px){
+
     .main .acerca-de article h3{
         font-size: 34px;
         margin-bottom: 10px;
