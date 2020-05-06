@@ -42,13 +42,13 @@ $(document).ready(function(){
         e.preventDefault
         $('html, body').animate({
             scrollTop:  galeria 
-        }, 500);
+        }, 1000);
     });
     $('#btn-ubicacion').on('click', function(e){
         e.preventDefault
         $('html, body').animate({
             scrollTop: ubicacion 
-        }, 500);
+        }, 1500);
     });
     
     
